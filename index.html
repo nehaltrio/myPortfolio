@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Ajmine Nehal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/3037/3037071.png"
+    />
+
+    <!-- Script For Smooth Scrolling -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("a").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <section id="top"></section>
+
+    <div class="topNav">
+      <a class="fa fa-arrow-up" href="#top" style="text-decoration: none"></a>
+    </div>
+
+    <!-- For Nav Bar -->
+
+    <div class="block">
+      <div class="align_nav">
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#about" style="text-decoration: none; font-weight: bold"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#project"
+                style="text-decoration: none; font-weight: bold"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#skill" style="text-decoration: none; font-weight: bold"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#achive" style="text-decoration: none; font-weight: bold"
+                >Achivements</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- For Social Links -->
+
+      <div class="social">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/nehaltrio"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-github"
+              style="
+                text-decoration: none;
+                font-size: 30px;
+                position: absolute;
+                top: 32%;
+                right: 82%;
+                color: rgb(255, 255, 255);
+              "
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ahmedajminenehal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-linkedin"
+              style="text-decoration: none; color: white"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/itss.nehalss/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-facebook"
+              style="text-decoration: none; color: white"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/_youare_virus_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-instagram"
+              style="text-decoration: none; color: white"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="back">
+      <img
+        src="https://i.pinimg.com/originals/d4/57/5b/d4575bdc49cddf00c5ae15f081ead2ed.gif"
+      />
+    </div>
+
+    <div class="name_container">
+      <div class="tit">Ahmed Ajmine Nehal</div>
+
+      <p>
+        Programmer | Problem Solver | Developer | Designer | Tech-enthusiast |
+        Undergrad Student of Computer Science at North South University
+      </p>
+
+      <div class="button_cont">
+        <a
+          href="https://dev.to/nehaltrio"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="text-decoration: none; color: white"
+          >My Blogs
+        </a>
+      </div>
+    </div>
+
+    <!-- For Project section -->
+    <br />
+    <br />
+    <section id="project">
+      <hr class="design" />
+    </section>
+
+    <div class="project_cont">
+      <h1>Projects</h1>
+      <p style="color: rgb(153, 153, 153)">
+        These are some of my notable projects. Visit my
+        <a
+          href="https://github.com/nehaltrio"
+          style="text-decoration: none; color: white"
+          >Github</a
+        >
+        for all the source codes.
+      </p>
+      <br />
+    </div>
+
+    <div class="row" style="margin-top: -1%">
+      <div class="column">
+        <div class="card">
+          <a href="https://busguru.herokuapp.com/"
+            ><img src="images\busguru.png" alt="Avatar" style="width: 100%"
+          /></a>
+          <div class="card_cont">
+            <h4><b>BusGuru</b></h4>
+            <p>A web application for Local buses.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <a href="http://temporarydropbox.epizy.com/">
+            <img src="images\tempo.png" alt="Avatar" style="width: 95%"
+          /></a>
+          <div class="card_cont">
+            <h4><b>Temporary DropBox</b></h4>
+            <p>A web application for File Sharing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 5%">
+      <div class="column">
+        <div class="card">
+          <a href="https://github.com/nehaltrio/NID-database">
+            <img src="images\Nid.png" alt="Avatar" style="width: 54%" />
+          </a>
+          <div class="card_cont">
+            <h4><b>NID Database Management System</b></h4>
+            <p>A JavaFx application for managing Database.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <a href="https://github.com/nehaltrio/Prison_Management_System">
+            <img src="images\prison.png" alt="Avatar" style="width: 85%" />
+          </a>
+          <div class="card_cont">
+            <h4><b>Prison Management System</b></h4>
+            <p>A console application for mananging a Prison.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- For About Section -->
+
+    <br />
+    <br />
+    <section id="about">
+      <hr class="design2" />
+    </section>
+    <div class="about_cont">
+      <div class="abt_tit"><h1>About Me</h1></div>
+      <p style="color: rgb(145, 145, 145)">
+        I am dedicated and passionate about Programming, Developing Application
+        in various platforms, Participating in Competetive Programming. I have
+        worked on many Projects using various Programming Languages, Frameworks,
+        APIs. I am fascinated with Machine Learning and Image Processing.
+        Currently I am researching on "2D RGB image to 3D character reconstruction" using
+        image processing. I am a fast learner and love to learn new things everyday.
+      </p>
+    </div>
+
+    <!-- For Skills -->
+
+    <br />
+    <section id="skill">
+      <hr class="design3" />
+    </section>
+    <div class="skill_cont">
+      <h1>Skills</h1>
+    </div>
+
+    <div class="rowS" style="margin-top: 3%">
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\java.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>JAVA</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\python.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>Python</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\c.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>C</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\c-.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>C++</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rowS" style="margin-top: 3%">
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\html.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>HTML5</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\css.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>CSS3</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\php.png"
+            alt="Avatar"
+            style="width: 80px; position: relative; margin-top: 9%"
+          />
+          <div class="card_contS">
+            <h4><b>PHP</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\spring.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>Spring Framework</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rowS" style="margin-top: 3%">
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\OpenCV.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 5%"
+          />
+          <div class="card_contS">
+            <h4><b>OpenCV Framework</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\api.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>APIs</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\adobe.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>Adobe Products</b></h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="columnS">
+        <div class="cardS">
+          <img
+            src="images\micro.png"
+            alt="Avatar"
+            style="width: 70px; position: relative; margin-top: 15%"
+          />
+          <div class="card_contS">
+            <h4><b>Microsoft Products</b></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- For Achivement -->
+    <br />
+    <section id="achive">
+      <hr class="design4" />
+    </section>
+    <div class="ach_cont">
+      <h1>Achivements</h1>
+      <div class="ach_contSUB">
+        <h3 style="position: relative; margin-top: 3%">
+          Competetive Programming
+        </h3>
+        <p style="color: rgb(145, 145, 145)">
+          I have solved 135+ problems in different online judges. Most of them
+          were solved with java. Find my codes
+          <a
+            href="https://github.com/nehaltrio/OnlineJudgeSolves"
+            style="text-decoration: none; color: white"
+            >here</a
+          >
+          .
+        </p>
+
+        <h3>Personal Projects</h3>
+        <p style="color: rgb(145, 145, 145)">
+          I have worked in 5+ personal project. Where I used C, C++, Java, Html,
+          CSS, PHP, JQuery, Spring Framework, Thymeleaf etc. Visit my
+          <a
+            href="https://github.com/nehaltrio"
+            style="text-decoration: none; color: white"
+            >Github</a
+          >
+          for all the codes.
+        </p>
+
+        <h3>Designing</h3>
+        <p style="color: rgb(145, 145, 145)">
+          I am experienced with Graphics Designing and Ui/Ux desiging. I use
+          Adobe XD, Adobe Illustrator etc softwares for designing. I have won
+          one Graphics Designing contest and also have various certifications.
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <hr />
+    <br />
+    <br />
+    <div class="foot">
+      <br />
+      <div class="footCol">
+        Call <br />
+        <p style="color: rgb(145, 145, 145)">
+          <a href="tel:+8801622559632" style="text-decoration: none">
+            +8801622559632</a
+          >
+        </p>
+      </div>
+      <div class="footCol">
+        Email <br />
+        <p style="color: rgb(145, 145, 145)">
+          <a
+            href="mailto:ahmedajminenehal@gmail.com"
+            style="text-decoration: none"
+            >ahmedajminenehal@gmail.com</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="foot_sec" style="margin-top: 5%">
+      <br />
+
+      <div class="footCol">
+        <p class="code_foot" style="text-align: center">
+          Coding is an ART. Happy Coding :)
+        </p>
+      </div>
+
+      <div class="footcol">
+        <div class="social_foot">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/nehaltrio"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="fa fa-github"
+                style="text-decoration: none; color: white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ahmedajminenehal/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="fa fa-linkedin"
+                style="text-decoration: none; color: white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/itss.nehalss/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="fa fa-facebook"
+                style="text-decoration: none; color: white"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/_youare_virus_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="fa fa-instagram"
+                style="text-decoration: none; color: white"
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="https://twitter.com/AhmedAjmine"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="fa fa-twitter"
+                style="text-decoration: none; color: white"
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </div>
+  </body>
+</html>

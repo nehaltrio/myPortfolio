@@ -1,0 +1,658 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.html,
+body {
+  background-color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
+  line-height: 1.3;
+  text-size-adjust: 100%;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+/* For Nav Bar */
+.menu ul {
+  display: flex;
+  position: relative;
+  height: 10px;
+  margin-left: 50%;
+  margin-top: 3%;
+  padding: 10px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 10px;
+  height: 20px;
+  width: 130px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.menu li:hover {
+  font-size: 22px;
+}
+
+a:link {
+  color: rgb(148, 148, 148);
+}
+a:visited {
+  color: rgb(148, 148, 148);
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* For Social Links */
+.social ul {
+  display: inline-flex;
+  position: relative;
+  height: 10px;
+  margin-top: 19px;
+  margin-left: 75%;
+  padding: 10px;
+}
+
+.social li {
+  list-style: none;
+  margin: 0 10px;
+  height: 20px;
+  width: 45px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+
+.social_foot ul {
+  display: inline-flex;
+  position: relative;
+  height: 10px;
+  margin-left: 250%;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.social_foot li {
+  list-style: none;
+  margin: 0 10px;
+  height: 20px;
+  width: 45px;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+
+/* For landing page name container */
+.name_container {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-top: 8%;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-right: 30%;
+  /* line-height: 40px;  */
+  color: rgb(153, 153, 153);
+}
+/* For button to blog */
+.button_cont {
+  background: linear-gradient(
+    90deg,
+    rgba(5, 0, 80, 1) 0%,
+    rgba(9, 9, 117, 1) 35%,
+    rgba(57, 118, 191, 1) 100%
+  );
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 150px;
+  font-size: 22px;
+  border-radius: 100px;
+}
+
+.button_cont:hover {
+  background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+}
+
+/* For background Gif */
+.back {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  color: wheat;
+  top: 16%;
+  left: 62%;
+}
+
+/* For project Section */
+
+.project_cont {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-top: 8%;
+  margin-left: 10%;
+  font-size: 24px;
+}
+
+/* For Projects rows and columns */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 40%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 90%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} */
+
+/* Style the counter cards */
+.card {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  height: 55%;
+  border-radius: 10px;
+}
+
+.card_cont {
+  padding: 2px 16px;
+}
+
+.about_cont {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: justify;
+  margin-right: 30%;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+/* For Skill section */
+.skill_cont {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 24px;
+}
+
+/* For skill section rows and columns */
+
+/* Float four columns side by side */
+.columnS {
+  position: relative;
+  float: left;
+  left: 10%;
+
+  width: 15%;
+  padding: 0 10px;
+  margin-left: 25px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowS {
+  margin-left: -30px;
+}
+
+/* Clear floats after the columns */
+.rowS:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns
+@media screen and (max-width: 600px) {
+  .columnS {
+    width: 90%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} */
+
+/* Style the counter cards */
+.cardS {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card_contS {
+  padding: 2px 16px;
+}
+
+/* For achivement section */
+
+.ach_cont {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  margin-top: 5%;
+  margin-left: 10%;
+  font-size: 24px;
+  text-align: justify;
+  margin-right: 21%;
+}
+
+h1 {
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(102, 102, 102));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* For footer section */
+hr {
+  width: 90%;
+  border-radius: 100%;
+  color: rgb(128, 128, 128);
+}
+
+.foot {
+  position: absolute;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  left: 10%;
+}
+
+.footCol {
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* For TOP navigating button */
+.topNav {
+  text-decoration: none;
+  position: fixed;
+  bottom: 35px;
+  right: 40px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 100%;
+}
+
+.tit {
+  font-size: 70px;
+  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(102, 102, 102));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.abt_tit {
+  font-size: 24px;
+}
+
+.ach_contSUB {
+  font-size: 20px;
+}
+
+.code_foot {
+  width: 300px;
+  position: relative;
+  margin-left: -15%;
+}
+
+.foot_sec {
+  position: absolute;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  left: 10%;
+}
+
+
+
+.design{
+  position: absolute;
+  left: 11%;
+  margin-top: 6%;
+  width: 5%;
+  height: 7px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+}
+
+.design2{
+  position: absolute;
+  left: 11%;
+  margin-top: 2.5%;
+  width: 5%;
+  height: 7px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+}
+
+.design3{
+  position: absolute;
+  left: 11%;
+  margin-top: 3%;
+  width: 5%;
+  height: 7px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+}
+
+.design4{
+  position: absolute;
+  left: 11%;
+  margin-top: 3%;
+  width: 5%;
+  height: 7px;
+  border-radius: 10px;
+  border-color: transparent;
+  background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+}
+
+
+@media screen and (max-width: 651px) {
+  .topNav {
+    display: none;
+  }
+
+  .back {
+    display: none;
+  }
+
+  .social ul {
+    display: none;
+  }
+
+  .social li {
+    font-size: 20px;
+  }
+
+  .name_container {
+    font-size: 13px;
+    line-height: 30px;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 10%;
+    text-align: justify;
+  }
+
+  .menu ul {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 8%;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+  }
+
+  .align_nav {
+    margin: 15% auto;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .menu li {
+    position: relative;
+    font-size: 15px;
+    width: 50px;
+  }
+
+  .menu li:hover {
+    font-size: 15px;
+  }
+
+  .button_cont {
+    width: 100%;
+    font-size: 13px;
+    height: 40px;
+    margin-top: 5%;
+  }
+
+  .project_cont {
+    font-size: 13px;
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+
+  .tit {
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .column {
+    width: 60%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+
+  .card {
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    height: 55%;
+    font-size: 11px;
+    border-radius: 10px;
+  }
+
+  .about_cont {
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  .abt_tit {
+    font-size: 13px;
+  }
+
+  .skill_cont {
+    margin-left: 2%;
+    font-size: 13px;
+  }
+
+  .columnS {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 18%;
+  }
+
+  .ach_cont {
+    font-size: 13px;
+    margin-left: 2%;
+    margin-right: 5%;
+  }
+
+  .ach_contSUB {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .social_foot ul {
+    margin-top: 7%;
+    margin-left: 0%;
+  }
+
+  .social_foot li {
+    font-size: 20px;
+    width: 20px;
+  }
+  .foot {
+    font-size: 13px;
+    margin-top: -5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    
+  }
+
+  .foot_sec {
+    font-size: 13px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .code_foot {
+    width: 210px;
+    margin-top: -20%;
+  }
+
+  .design{
+    position: absolute;
+    left: 3%;
+    margin-top: 4%;
+    width: 10%;
+    height: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+    background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+  }
+
+  .design2{
+    position: absolute;
+    left: 3%;
+    margin-top: 1%;
+    width: 10%;
+    height: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+    background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+
+  }
+
+  .design3{
+    position: absolute;
+    left: 3%;
+    margin-top: 1.5%;
+    width: 7%;
+    height: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+    background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+    
+  }
+
+  .design4{
+    position: absolute;
+    left: 3%;
+    margin-top: 2%;
+    width: 10%;
+    height: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+    background: linear-gradient(to right, #000066 0%, #3399ff 100%);
+    
+  }
+
+ 
+
+}
+
+
+@media screen and (max-width: 431px) {
+
+  .menu ul{
+    padding-right: 45px;
+  }
+
+  .menu li{
+    width: 40px;
+    font-size: 14px;
+  }
+
+  .tit{
+    font-size: 30px;
+  }
+
+  .column{
+    width: 75%;
+    margin-left: 2%;
+  }
+
+  .columnS{
+    width: 65%;
+    margin-left: 10%;
+  }
+
+  .foot{
+    left: 42%;
+  }
+
+  .code_foot{
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+
+  .design{
+    height: 5px;
+  }
+
+  .design2{
+    height: 5px;
+  }
+
+  .design3{
+    height: 5px;
+  }
+
+  .design4{
+    height: 5px;
+  }
+}
